@@ -1,0 +1,27 @@
+.about {
+  display: flex;
+  align-items: center;
+  margin: 20px 60px;
+  justify-content: space-evenly;
+}
+
+.about img {
+  height: 400px;
+}
+
+.about-text {
+  text-align: center;
+
+  h1 {
+    font-size: 5rem;
+    margin: 10px 0;
+  }
+  h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+}
