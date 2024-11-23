@@ -1,0 +1,7 @@
+black: 141414
+dark blue (duke blue): #012169
+mid blue: 003D82
+light mid blue: 0C53A6
+light blue: 2B6ABC
+
+primary blue: #3b82f6
