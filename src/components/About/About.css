@@ -1,7 +1,8 @@
 .about {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 20px 60px;
+  margin: 30px 60px;
   justify-content: space-evenly;
 }
 
@@ -15,11 +16,15 @@
   h1 {
     font-size: 5rem;
     margin: 10px 0;
+
+    span {
+      background: linear-gradient(267deg, #4cbb16 0.36%, #3b82f6 102.06%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
-  h2 {
-    font-size: 2rem;
-    margin: 10px 0;
-  }
+
   p {
     font-size: 1.5rem;
     margin: 10px 0;

@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 20px 60px;
+  position: sticky;
 }
 
 .name {
@@ -48,7 +49,7 @@
   font-size: 1.5rem;
   padding: 15px 30px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #3b82f6 0.36%, #012169 102.06%);
+  background: linear-gradient(267deg, #4cbb16 0.36%, #3b82f6 102.06%);
   cursor: pointer;
   border: none;
   transition: 0.4s;
