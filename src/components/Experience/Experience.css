@@ -1,8 +1,35 @@
+.experience-header {
+  padding-top: 30px;
+  font-size: 5rem;
+  text-align: center;
+}
+
 .experiences {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin: 30px 60px;
+  align-items: right;
 }
 .experience-item {
+  display: flex;
+  margin: 15px 0px;
+  gap: 80px;
+}
+
+.experience-img {
+  aspect-ratio: 2;
   width: 400px;
-  margin: 30px 0px;
+}
+
+.experience-title {
+  font-size: 3rem;
+  margin-bottom: 6px;
+}
+
+.experience-role {
+  font-size: 2rem;
+  margin-bottom: 4px;
+}
+.experience-description {
+  font-size: 1.3rem;
 }
