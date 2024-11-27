@@ -5,7 +5,7 @@ import profile_img from "../../assets/headshot.jpg";
 const Experience = () => {
   return (
     <>
-      <h1 className="experience-header">Work Experience</h1>
+      <h1 className="section-header">Work Experience</h1>
       <div className="experiences">
         <div className="experience-item">
           <img src={profile_img} alt="" className="experience-img"></img>

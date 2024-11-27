@@ -1,0 +1,57 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects h1 {
+  padding-bottom: 30px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.project {
+  position: relative;
+  width: 333px;
+  height: 222px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.project-thumbnail {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -1%;
+  left: -1%;
+  width: 102%;
+  height: 102%;
+  background: linear-gradient(267deg, #4cbb16 0.36%, #3b82f6 102.06%);
+  z-index: -1;
+  border-radius: 10px;
+  transition: 0.3s;
+
+  p {
+  }
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project:hover .project-info {
+  opacity: 0.9;
+  z-index: 1;
+}
