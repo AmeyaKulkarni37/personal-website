@@ -10,9 +10,11 @@ const Projects = () => {
         <div className="project">
           <img src={profile_img} alt="" className="project-thumbnail" />
           <div className="project-info">
-            <p>Project Name</p>
+            <h2>Project Name</h2>
+            <p>Project Description</p>
             <div className="project-info-buttons">
-              <button>Read More</button>
+              <button>Demo</button>
+              <button>Code</button>
             </div>
           </div>
         </div>

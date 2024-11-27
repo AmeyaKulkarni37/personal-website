@@ -10,14 +10,14 @@
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 .project {
   position: relative;
-  width: 333px;
-  height: 222px;
+  width: 666px;
+  height: 444px;
   transition: 0.3s;
   cursor: pointer;
 }
