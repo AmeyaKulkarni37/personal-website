@@ -20,19 +20,25 @@ const Projects = () => {
         </div>
         <div className="project">
           <img src={profile_img} alt="" className="project-thumbnail" />
-          <div className="project-info"></div>
+          <div className="project-info">
+            <h2>Project Name</h2>
+            <p>Project Description</p>
+            <div className="project-info-buttons">
+              <button>Demo</button>
+              <button>Code</button>
+            </div>
+          </div>
         </div>
         <div className="project">
           <img src={profile_img} alt="" className="project-thumbnail" />
-          <div className="project-info"></div>
-        </div>
-        <div className="project">
-          <img src={profile_img} alt="" className="project-thumbnail" />
-          <div className="project-info"></div>
-        </div>
-        <div className="project">
-          <img src={profile_img} alt="" className="project-thumbnail" />
-          <div className="project-info"></div>
+          <div className="project-info">
+            <h2>Project Name</h2>
+            <p>Project Description</p>
+            <div className="project-info-buttons">
+              <button>Demo</button>
+              <button>Code</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
