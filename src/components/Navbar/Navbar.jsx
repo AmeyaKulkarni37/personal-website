@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
+import resume from "../../assets/Ameya_Kulkarni_Resume.docx";
 
 const Navbar = () => {
   return (
@@ -15,7 +16,9 @@ const Navbar = () => {
         <NavLink to="/skills">Skills</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </ul>
-      <button className="download-resume">Download Resume</button>
+      <a className="download-resume" href={resume} download>
+        Download Resume
+      </a>
     </div>
   );
 };
