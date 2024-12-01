@@ -13,34 +13,44 @@ const Contact = () => {
         <div className="contact-left">
           <h2>Let's Get In Touch!</h2>
           <div className="contact-details">
-            <button className="contact-detail">
+            <a className="contact-detail" href="mailto:ameyakulk06@gmail.com">
               <img src={mail_icon} alt="" />
               <h3>Email</h3>
               <p>ameyakulk06@gmail.com</p>
-            </button>
-            <button className="contact-detail">
+            </a>
+            <a className="contact-detail" href="tel:+12148975440">
               <img src={phone_icon} alt="" />
               <h3>Phone</h3>
               <p>214-897-5440</p>
-            </button>
-            <button className="contact-detail">
+            </a>
+            <a
+              className="contact-detail"
+              href="https://www.linkedin.com/in/ameyakulkarni37"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <img src={linkedin_icon} alt="" />
               <h3>LinkedIn</h3>
               <p>ameyakulkarni37</p>
-            </button>
-            <button className="contact-detail">
+            </a>
+            <a
+              className="contact-detail"
+              href="https://github.com/AmeyaKulkarni37"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <img src={github_icon} alt="" />
               <h3>GitHub</h3>
               <p>AmeyaKulkarni37</p>
-            </button>
+            </a>
           </div>
         </div>
         <form className="contact-right">
-          <label htmlFor="">Name</label>
+          <label>Name</label>
           <input type="text" placeholder="Enter Your Name" name="name" />
-          <label htmlFor="">Email</label>
+          <label>Email</label>
           <input type="text" placeholder="Enter Your Name" name="email" />
-          <label htmlFor="">Message</label>
+          <label>Message</label>
           <textarea
             name="message"
             rows="8"
