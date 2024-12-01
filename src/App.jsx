@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Routes, Route, BrowserRouter, useNavigate } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import About from "./components/About/About.jsx";
 import Experience from "./components/Experience/Experience.jsx";

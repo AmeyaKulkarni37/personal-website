@@ -6,6 +6,27 @@ import github_icon from "../../assets/logos/github-white.svg";
 import phone_icon from "../../assets/logos/phone.svg";
 
 const Contact = () => {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "24e2d761-0ef2-43b0-8d32-6b1ad10165ab");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      alert("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      alert("Error", data.message);
+    }
+  };
+
   return (
     <div className="contact" id="contact">
       <h1 className="section-header">Contact Me</h1>
@@ -45,7 +66,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <form className="contact-right">
+        <form className="contact-right" onSubmit={onSubmit}>
           <label>Name</label>
           <input type="text" placeholder="Enter Your Name" name="name" />
           <label>Email</label>
