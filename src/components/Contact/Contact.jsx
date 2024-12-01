@@ -7,7 +7,7 @@ import phone_icon from "../../assets/logos/phone.svg";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h1 className="section-header">Contact Me</h1>
       <div className="contact-section">
         <div className="contact-left">

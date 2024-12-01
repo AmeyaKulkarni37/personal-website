@@ -4,7 +4,7 @@ import profile_img from "../../assets/headshot.jpg";
 
 const Experience = () => {
   return (
-    <>
+    <div id="experience">
       <h1 className="section-header">Work Experience</h1>
       <div className="experiences">
         <div className="experience-item">
@@ -82,7 +82,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

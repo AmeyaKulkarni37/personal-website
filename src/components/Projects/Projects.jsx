@@ -9,7 +9,7 @@ import react from "../../assets/logos/react.svg";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1 className="section-header">Projects</h1>
       <div className="projects-container">
         <div className="project">

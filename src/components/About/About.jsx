@@ -4,7 +4,7 @@ import profile_img from "../../assets/headshot.jpg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <img src={profile_img} alt="Professional headshot of Ameya Kulkarni" />
       <div className="about-text">
         <h1>

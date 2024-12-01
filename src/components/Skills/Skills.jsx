@@ -45,7 +45,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <h1 className="section-header">Technical Skills</h1>
       {getSkillItems()}
     </div>

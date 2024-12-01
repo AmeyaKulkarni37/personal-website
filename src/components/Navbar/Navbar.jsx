@@ -8,10 +8,10 @@ const Navbar = () => {
       <span className="name">Ameya Kulkarni</span>
       <ul className="nav-menu">
         <NavLink to="/">About</NavLink>
-        <NavLink to="/">Experience</NavLink>
-        <NavLink to="/">Projects</NavLink>
-        <NavLink to="/">Skills</NavLink>
-        <NavLink to="/">Contact</NavLink>
+        <NavLink to="/experience">Experience</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/skills">Skills</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </ul>
       <button className="download-resume">Download Resume</button>
     </div>
