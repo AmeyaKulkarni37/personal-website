@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.a82ed4a7.css",
+    "main.js": "/personal-website/static/js/main.8e82aad4.js",
+    "static/js/453.253ccfac.chunk.js": "/personal-website/static/js/453.253ccfac.chunk.js",
+    "static/media/headshot.jpg": "/personal-website/static/media/headshot.5fbae725e943a96d400c.jpg",
+    "static/media/Ameya_Kulkarni_Resume.docx": "/personal-website/static/media/Ameya_Kulkarni_Resume.f3d887dba306c91ff358.docx",
+    "static/media/nodejs.svg": "/personal-website/static/media/nodejs.f163cddfbfe49648deb1ce8917207b77.svg",
+    "static/media/react.svg": "/personal-website/static/media/react.a480584a95fecbc5aa032eae468e292b.svg",
+    "static/media/java.svg": "/personal-website/static/media/java.799fbfb5362634b5a8d18a3f23fbed67.svg",
+    "static/media/JS.svg": "/personal-website/static/media/JS.0331ddeca13066162f1f72c37a708739.svg",
+    "static/media/R.svg": "/personal-website/static/media/R.2da55f926557c943ffe724d11774aa44.svg",
+    "static/media/linkedin.svg": "/personal-website/static/media/linkedin.9d1c8c5d4d9383a95489bcd716086efa.svg",
+    "static/media/github-white.svg": "/personal-website/static/media/github-white.9e2e1c7ef58ce6b485227e2bc292e4a2.svg",
+    "static/media/TypeScript.svg": "/personal-website/static/media/TypeScript.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
+    "static/media/python.svg": "/personal-website/static/media/python.46b8896530013d6fc87364fd274d3bf2.svg",
+    "static/media/phone.svg": "/personal-website/static/media/phone.5b3bcf892c63316a8ec2813d81cc5db5.svg",
+    "static/media/linux.svg": "/personal-website/static/media/linux.f626c8924757e398613cac6297b07807.svg",
+    "index.html": "/personal-website/index.html",
+    "static/media/mail.svg": "/personal-website/static/media/mail.03f6cd0ea5978516eee68030e39e042b.svg",
+    "static/media/html5.svg": "/personal-website/static/media/html5.42c02db687dba9b4821fbac5c65e5296.svg",
+    "static/media/css3.svg": "/personal-website/static/media/css3.bbf0b60508efac0bda4fbb5593f4337f.svg",
+    "main.a82ed4a7.css.map": "/personal-website/static/css/main.a82ed4a7.css.map",
+    "main.8e82aad4.js.map": "/personal-website/static/js/main.8e82aad4.js.map",
+    "453.253ccfac.chunk.js.map": "/personal-website/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a82ed4a7.css",
+    "static/js/main.8e82aad4.js"
+  ]
+}
