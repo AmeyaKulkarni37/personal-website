@@ -1,11 +1,11 @@
 import "./Projects.css";
 import React from "react";
-import profile_img from "../../assets/headshot.jpg";
 import html from "../../assets/logos/html5.svg";
 import css from "../../assets/logos/css3.svg";
 import js from "../../assets/logos/JS.svg";
 import python from "../../assets/logos/python.svg";
 import react from "../../assets/logos/react.svg";
+import { assets } from "../../assets/assets.js";
 
 const Projects = () => {
   return (
@@ -13,7 +13,7 @@ const Projects = () => {
       <h1 className="section-header">Projects</h1>
       <div className="projects-container">
         <div className="project">
-          <img src={profile_img} alt="" className="project-thumbnail" />
+          <img src={assets.isef_img} alt="" className="project-thumbnail" />
           <div className="project-info">
             <h2>Venom Molecular Function Prediction AI</h2>
             <div className="project-technologies">
@@ -26,7 +26,8 @@ const Projects = () => {
               assist in determining how these compounds can be repurposed into
               medicine.
               <br /> <br /> Worked with TensorFlow/Keras to train a neural
-              network with 95.6% validation accuracy and 0.95 F1 Score. <br />
+              network with 95.6% validation accuracy and 0.95 F1 Score. Frontend
+              implemented with Flask. <br />
               <br /> $40,000 Special Award winner and Fair Finalist at 2023
               Regeneron International Science and Engineering Fair (ISEF)
             </p>
@@ -37,7 +38,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project">
-          <img src={profile_img} alt="" className="project-thumbnail" />
+          <img src={assets.website_img} alt="" className="project-thumbnail" />
           <div className="project-info">
             <h2>Personal Website</h2>
             <div className="project-technologies">

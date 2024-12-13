@@ -7,12 +7,16 @@
 .experience-item {
   display: flex;
   margin: 15px 0px;
+  height: auto;
   gap: 80px;
 }
 
 .experience-img {
-  aspect-ratio: 2;
-  width: 400px;
+  width: 33%;
+  height: auto;
+  max-height: 225px;
+  object-fit: cover;
+  aspect-ratio: auto;
 }
 
 .experience-title {
@@ -26,4 +30,8 @@
 }
 .experience-description {
   font-size: 1.3rem;
+}
+
+.experience-info {
+  flex: 1;
 }

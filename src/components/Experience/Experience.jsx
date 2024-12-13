@@ -1,6 +1,6 @@
 import "./Experience.css";
 import React from "react";
-import profile_img from "../../assets/headshot.jpg";
+import { assets } from "../../assets/assets.js";
 
 const Experience = () => {
   return (
@@ -8,7 +8,7 @@ const Experience = () => {
       <h1 className="section-header">Work Experience</h1>
       <div className="experiences">
         <div className="experience-item">
-          <img src={profile_img} alt="" className="experience-img"></img>
+          <img src={assets.utsw_img} alt="" className="experience-img"></img>
 
           <div className="experience-info">
             <h2 className="experience-title">UT Southwestern Medical Center</h2>
@@ -38,7 +38,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="experience-item">
-          <img src={profile_img} alt="" className="experience-img" />
+          <img src={assets.cda_img} alt="" className="experience-img" />
 
           <div className="experience-info">
             <h2 className="experience-title">Coppell Debate Academy</h2>
@@ -62,7 +62,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="experience-item">
-          <img src={profile_img} alt="" className="experience-img" />
+          <img src={assets.kumon_img} alt="" className="experience-img" />
 
           <div className="experience-info">
             <h2 className="experience-title">Kumon North America</h2>
