@@ -1,10 +1,5 @@
 import "./Projects.css";
-import React from "react";
-import html from "../../assets/logos/html5.svg";
-import css from "../../assets/logos/css3.svg";
-import js from "../../assets/logos/JS.svg";
-import python from "../../assets/logos/python.svg";
-import react from "../../assets/logos/react.svg";
+import { logos } from "../../assets/logos/logos.js";
 import { assets } from "../../assets/assets.js";
 
 const Projects = () => {
@@ -18,7 +13,8 @@ const Projects = () => {
             <h2>Venom Molecular Function Prediction AI</h2>
             <div className="project-technologies">
               <h3>Built with: </h3>
-              <img src={python} alt="" />
+              <img src={logos.python} alt="" />
+              <img src={logos.tensorflow} alt="" />
             </div>
             <p>
               Award winning machine learning algorithm to predict venom and
@@ -43,10 +39,10 @@ const Projects = () => {
             <h2>Personal Website</h2>
             <div className="project-technologies">
               <h3>Built with: </h3>
-              <img src={react} alt="" />
-              <img src={html} alt="" />
-              <img src={css} alt="" />
-              <img src={js} alt="" />
+              <img src={logos.react} alt="" />
+              <img src={logos.html} alt="" />
+              <img src={logos.css} alt="" />
+              <img src={logos.js} alt="" />
             </div>
             <p>Project Description</p>
             <div className="project-info-buttons">

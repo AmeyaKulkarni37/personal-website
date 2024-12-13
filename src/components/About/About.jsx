@@ -1,11 +1,14 @@
 import React from "react";
 import "./About.css";
-import profile_img from "../../assets/headshot.jpg";
+import { assets } from "../../assets/assets";
 
 const About = () => {
   return (
     <div className="about" id="about">
-      <img src={profile_img} alt="Professional headshot of Ameya Kulkarni" />
+      <img
+        src={assets.profile_img}
+        alt="Professional headshot of Ameya Kulkarni"
+      />
       <div className="about-text">
         <h1>
           <span>I'm Ameya Kulkarni</span>, Computer Science and Mathematics
