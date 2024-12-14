@@ -12,10 +12,11 @@
 }
 
 .experience-img {
-  width: 33%;
+  width: 40%;
   height: auto;
-  max-height: 225px;
-  object-fit: cover;
+  max-height: 250px;
+  object-position: 50% 55%;
+  object-fit: contain;
   aspect-ratio: auto;
 }
 
@@ -30,6 +31,9 @@
 }
 .experience-description {
   font-size: 1.3rem;
+  li {
+    margin-bottom: 15px;
+  }
 }
 
 .experience-info {

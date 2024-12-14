@@ -14,7 +14,12 @@ const About = () => {
           <span>I'm Ameya Kulkarni</span>, Computer Science and Mathematics
           Student at Duke University
         </h1>
-        <p>Welcome to my personal website! (insert stuff) Enjoy!</p>
+        <p>
+          Welcome to my personal website! Below you will find information
+          regarding my work experiences, projects I've developed, my technical
+          skills, and a contact section. Please don't hesitate to reach out!
+          Enjoy!
+        </p>
       </div>
     </div>
   );

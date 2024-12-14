@@ -28,8 +28,16 @@ const Projects = () => {
               Regeneron International Science and Engineering Fair (ISEF)
             </p>
             <div className="project-info-buttons">
-              <button>Demo</button>
-              <button>Code</button>
+              <a href="" target="_blank" rel="noreferrer noopener">
+                Demo
+              </a>
+              <a
+                href="https://github.com/AmeyaKulkarni37/Venomics-Science-Fair"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Code
+              </a>
             </div>
           </div>
         </div>
@@ -44,10 +52,22 @@ const Projects = () => {
               <img src={logos.css} alt="" />
               <img src={logos.js} alt="" />
             </div>
-            <p>Project Description</p>
+            <p>My personal portfolio website, primarily built with React.</p>
             <div className="project-info-buttons">
-              <button>Live Site</button>
-              <button>Code</button>
+              <a
+                href="https://ameyakulkarni37.github.io/personal-website/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live Site
+              </a>
+              <a
+                href="https://github.com/AmeyaKulkarni37/personal-website"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Code
+              </a>
             </div>
           </div>
         </div>
